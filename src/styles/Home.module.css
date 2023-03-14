@@ -293,6 +293,9 @@ margin-top: 5rem;
  padding-top:2rem;
  
 }
+.div {
+  margin-left:'9.5rem'
+}
   
 .miniSub {
   display:flex;
@@ -326,8 +329,7 @@ margin-top: 5rem;
   }
   .source_div{
     width:100%;
-    margin: 0 auto;
-    padding: 0 auto; 
+   
   }
   .value_main{
     width: 100%;
@@ -404,9 +406,11 @@ width: 100%;
  }
  .source_div{
   margin-left: 4rem;
+  width: 100%;
  }
  .source_mini{
   display: block;
+  width: 100%;
  }
  .benefit_main{
   background-image: none;
@@ -424,6 +428,7 @@ width: 100%;
  }
  .sphere{
   margin-left: 2rem;
+  margin-top: -10rem;
  }
  .data{
   margin-left: 3rem;
@@ -443,6 +448,7 @@ width: 100%;
  }
  .sub{
   width: 100%;
+  text-align: center;
  }
  .button{
   display: none;
@@ -459,4 +465,19 @@ width: 100%;
  .miniSub {
   margin-left: 7rem;
  }
+ .program{
+  width: 100%;
+  font-size: 1rem;
+ }
+ .program_div{
+  width: 100%;
+ }
+.div{
+  width:100%;
+  text-align: center;
+  margin-left: 3rem;
+}
+.faq{
+  margin-left: 2rem;
+}
 }

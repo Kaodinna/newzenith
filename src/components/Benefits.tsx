@@ -3,9 +3,7 @@ const Benefits = () => {
     const benefit = {
         fontSize:'2rem'
     }
-    const div = {
-        marginLeft:'9.5rem'
-    }
+  
     const number = {
         display:'flex',
     }
@@ -28,7 +26,7 @@ const Benefits = () => {
   
     return ( 
         <div className={styles.benefit_main}>
-            <div style={div}>
+            <div className={styles.div}>
             <p style={benefit}>Benefits</p>
             <p>Tech supports up to  $250,000 is broken down as follows;</p>
             </div>
