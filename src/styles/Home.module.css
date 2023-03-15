@@ -270,15 +270,15 @@ margin-top: 5rem;
   margin:0;   
 }
 .data{
-  margin-left:'15rem'
+  margin-left:15rem;
 }
 .fin{
-  display:'flex';      
-  justify-content: space-between
+  display:flex;      
+  justify-content: space-evenly;
 }
 .health{
   display:flex;
-  justify-content: space-evenly,        
+  justify-content: space-evenly;        
 }
 .miniDiv {
   display:flex;
@@ -288,13 +288,13 @@ margin-top: 5rem;
   align-items:center
 }
 .miniMain{
-  background-color:'black';
+  background-color:black;
   color:white;
  padding-top:2rem;
  
 }
 .div {
-  margin-left:'9.5rem'
+  margin-left:9.5rem
 }
   
 .miniSub {
@@ -365,7 +365,7 @@ width: 100%;
   width: 100%;
  }
  .applyButton{
-  width: 0;
+  width: 100%;
  }
  .value_mini{
   display: grid;
@@ -424,7 +424,8 @@ width: 100%;
   margin-left: 2.3rem;
  }
  .nav_main{
-  margin-left: 2rem;
+  margin-left: 3rem;
+  width: 100%;
  }
  .sphere{
   margin-left: 2rem;
@@ -458,7 +459,7 @@ width: 100%;
 
  }
  .miniMain{
-  margin-left: 2rem;
+  margin-left: 3.3rem;
   width: 100%;
   text-align: center;
  }
