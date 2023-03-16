@@ -16,59 +16,89 @@ const Footer = () => {
       
     }
     const medium = {
-        color:'white'
+        color:'white',
+        fontSize:'0.8rem'
     }
-    
+    const numeral_span = {
+        display:'inline-block',
+        padding:'5px 9px ',
+        backgroundColor:'rgba(85,85,85,0.5)',
+        borderRadius:'50%'
+      }
+    const face = {
+        width:'0.5rem',
+        height:'0.7rem'
+    }
+    const twit = {
+        width:'0.6rem',
+        height:'0.8rem'
+    }
+    const link = {
+        width:'0.9rem',
+        height:'0.6rem'
+    }
+    const tele = {
+        width:'0.9rem',
+        height:'0.6rem'
+    }
+    const vertical ={
+        borderLeft: '1px solid #333', 
+        height: '35px' 
+      }
+      const copyright = {
+        paddingLeft:'1.8rem'
+      }
     return (
         <div className={styles.miniMain}>
             <div className={styles.border}></div>
+            <div>
             <div className={styles.miniDiv}>
                 <a  href="https://zenithchain.co" target="_blank">
                     <Image className={styles.footer_logo} src={Logo} alt=""/>
                 </a>
-               
-                <p>
+                <div style={vertical}></div>
+                <p style={copyright}>
                     Copyright 2020-2023 Zenith Chain (UAB) Ltd Reg No. 305865705. All rights reserved
                 </p>
                 <div className={styles.miniSub}>
                     <div style={image}>
                         <a href="https://www.facebook.com/zenithchain" target="_blank" rel="noopener noreferrer">
-                            <Image src={Facebook} alt=""/>
+                            <span style={numeral_span}><Image src={Facebook} style={face} alt=""/></span>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="https://twitter.com/zenithchain_co" target="_blank" rel="noopener">
-                            <Image src={Twitter} alt=""/>
+                            <span style={numeral_span}><Image src={Twitter}  style={twit} alt=""/></span>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="https://www.linkedin.com/company/zenith-chain" target="_blank" rel="noopener">
-                            <Image src={LinkedIn} alt=""/>
+                            <span style={numeral_span}><Image src={LinkedIn} style={link} alt=""/></span>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="https://www.reddit.com/r/zenithchain_co">
-                            <Image src={SocialIcon1} alt=""/>
+                            <span style={numeral_span}><Image src={SocialIcon1} alt=""/></span>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="">
-                            <Image src={SocailIcon2} alt=""/>
+                            <span style={numeral_span}><Image src={SocailIcon2} alt=""/></span>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="https://t.me/zenithchainenglish" target="_blank" rel="noopener">
-                            <Image src={Telegram} alt=""/>
+                            <span style={numeral_span}><Image src={Telegram}  style={tele} alt=""/></span>
                         </a>
                     </div>
                     
                     <div style={image}>
                         <a href="https://blog.zenithchain.co">
-                            <SiMedium style={medium}/>
+                            <span style={numeral_span}><SiMedium style={medium}/></span>
                         </a>
                     </div>                                              
                 </div>
-
+            </div>
             </div>
         </div>
     )

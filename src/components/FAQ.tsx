@@ -8,7 +8,9 @@ import styles from '../styles/Home.module.css'
 
 const FAQ = () => {
     const faq = {
-        fontSize:'2rem'   
+        fontSize:'2rem',
+        fontFamily: 'Poppins, sans-serif' ,
+      
     }
     return (
       <div className={styles.faq}>

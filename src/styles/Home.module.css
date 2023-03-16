@@ -1,63 +1,96 @@
 .nav_main{
-  padding: 0 auto;
 margin: 0 auto;
 width: 80%;
 display: flex;
 align-items: center;
-padding:25px 0;
-border-bottom: 1px solid #333;
-position: absolute;
-margin-left: 8rem;
+
+}
+.relaunch{
+  width: 70%;
+  height: auto;
+  margin-left: 7rem;
+  
+
+}
+.flex_elelemt{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.flex_con{
+  width: 50%;
+  text-align: center;
 }
 
-.applyButton{
-  width:50%;
-  text-decoration: none;
+.program_class{
+  font-size:2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 .applyButton a {
   color: white;
   outline: none;
-  padding: 10px 25px;
-  background-color: rgb(85,72,237);
+  padding: 13px 20px;
+  background: linear-gradient(to right, #3407dc 0%, #744ffe 100%);
   border: none;
   margin-left: 30rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.7rem;
+}
+.footer_logo{
+  width:6rem;
+  margin-right: 1.8rem;
+  margin-left: 8.5rem;
 }
 .apply_btn{
-  background-color: rgb(85,72,237);
+  background: linear-gradient(to right, #3407dc 0%, #744ffe 100%);
   color: white;
-  padding: 10px 25px;
+  padding: 13px 20px;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.7rem;
 }
 .apply_btn1{
   color: white;
-  outline: none;
-  padding: 10px 25px;
-  background-color: rgb(85,72,237);
+ 
+  padding: 13px 20px;
+  background:  linear-gradient(to right, #3407dc 0%, #744ffe 100%);
+  font-size: 0.7rem;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
 }
 .button{
   margin-left:'20rem'
 }
+.accelerator_main{
+  background-image: url('../../public/Eclipse.png');
+  background-repeat: no-repeat;
+  background-position: left 0;
+  background-size: 25rem;
+}
+.accelerator_mega{
+  background-image: url('../../public/Rectangle.png');
+  min-height: 50rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .accelerator_mini{
   display: flex;
-  width: 80%;
-  padding: 0 auto;
-  margin: 0 auto;
-  margin-top: -25rem;
+ align-items: center;
+ padding-top: 80px ;
 }
 .program_div{
   width: 50%;
 }
 .about_main{
-  display: flex;
   width: 80%;
   margin: 0 auto;
   padding: 0 auto; 
-  margin-top: 15rem;
-  margin-bottom: -5rem;
+  margin-top: 5rem;
+}
+.about_para{
+  display: flex;
+  align-items: center;
 }
 .imaging{
   height:20%;
@@ -75,34 +108,49 @@ margin-left: 8rem;
   width: 100%;
   margin: 0 auto;
   padding: 0 auto; 
-  margin-top: 10rem;
   background-image: url('../../public/Eclipse\ \(3\).png');
   background-repeat: no-repeat;
-  background-position: right -8rem;
-  background-size: 25rem;
+  background-position: right 25rem;
+  background-size: 35rem;
   padding-bottom: 5rem;
   padding-top: 5rem;
+  
 }
+.active_vision{
+  background-image: url('../../public/Ellipse4.png');
+  background-repeat: no-repeat;
+  background-position: left 35rem;
+  background-size: 30rem; 
+}
+.liteDiv{
+  background-image: url('../../public/Vector95.png');
+  background-repeat: no-repeat;
+  background-position: right 28rem;
+  background-size: 45rem;  
+}
+
 .about_div{
-  width: 60%;
+  width: 50%;
 }
 .vision_div{
   width:50%;
-    background-color: rgb(25,25,25);
+  background: linear-gradient(to bottom, #222222 0%, #060606 100%); 
     margin:0 0.5rem;
     border-radius: 1rem;
     padding:0 1rem 1rem 1rem;
     text-align: center;
  margin-top: -5rem;
+
 }
 .mission_div{
   width:50%;
-    background-color: rgb(25,25,25);
+  background-color:rgba(26, 25, 26, 0.5);
     margin:0 0.5rem;
     border-radius: 1rem;
     padding:0 1rem 1rem 1rem;
     text-align: center;
  margin-top: -5rem;
+ 
 }
 .search{
   margin-top:-6rem;
@@ -114,7 +162,8 @@ margin-left: 8rem;
   margin-left:80rem
 }
 .litecoin{
-  margin-left:75rem
+  margin-left:75rem;
+  margin-top: -6rem;
 }
 .source_main{
   width: 100%;
@@ -125,7 +174,7 @@ margin-left: 8rem;
   background-position: left 0;
   background-size: 25rem;
   padding-bottom: 5rem;
- 
+  background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
 justify-content: center;
 
@@ -147,18 +196,7 @@ justify-items: center;
 margin-top: 5rem;
 
 }
-.benefit_main{
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 auto; 
-  background-image: url('../../public/Vector95.png');
-  background-repeat: no-repeat;
-  background-position: right -5rem;
-  background-size: 25rem;
-  padding-bottom: 5rem;
-  padding-top: 5rem;
 
-}
 .benefits_div{
   display: flex;
   width: 80%;
@@ -179,27 +217,30 @@ margin-top: 5rem;
 }
 .benefits_minier{
   width:28%;
-  background-color: rgb(25,25,25);
+  background: linear-gradient(to bottom, #222222 0%, #060606 100%); 
   margin: 0.5rem;
   border-radius: 1rem;
-  padding: 1rem;  
+  padding: 1rem; 
+  opacity:0.5; 
 }
 .apply_main{
-  background-image: url('../../public/Frame\ 1.png');
-  min-height: 20rem;
+  background-image: url('../../public/Gradient.png');
+  min-height: 21rem;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 5rem;
  
+}
+.apply_para{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 auto; 
 }
 .sub{
   width:'60%'
 }
 .apply_mini{
   display: flex;
-  width: 80%;
-  margin: 0 auto;
-  padding: 0 auto;
   align-items: center;
 
 }
@@ -228,21 +269,27 @@ margin-top: 5rem;
 }
 .border{
   height: 0.2px;
-  background-color: white;
+  background-color: #333;
   margin: 0 auto;
   width: 80%;
+  
 }
 .globe {
-  height:25rem;
-  width:25rem;
-  margin-left:9rem;
+width: 80%;
+  margin-left:5rem;
+  height: auto;
   
 }
 
 .faq{
   margin-left: 10rem;
-
-  margin-bottom: 5rem;
+  font-weight:bold;
+  background-image: url('../../public/Eclipsefaq.png');
+  background-repeat: no-repeat;
+  background-position: right 28rem;
+  background-size: 35rem;
+  padding-bottom: 48rem;
+  
 }
 
 .value_sub{
@@ -250,8 +297,7 @@ margin-top: 5rem;
   background-color: rgb(25,25,25);
   margin: 1rem;
   border-radius: 1rem;
-  padding: 1rem;
-  box-shadow: 1px 1px 15px #CCC;
+  padding: 1rem ;
 }
 .value_para{
   width:50%;
@@ -259,38 +305,45 @@ margin-top: 5rem;
   margin: 1rem;
   border-radius: 1rem;
   padding: 1rem;
-  box-shadow: 1px 1px 15px #CCC;
+
 }
 .sphere{
   height:7rem;
   width:7rem; 
   margin-left:2rem;
-  margin-top:-10rem;
+ margin-top: 5rem;
   padding:0;
   margin:0;   
 }
 .data{
   margin-left:15rem;
+  font-family: 'Poppins', sans-serif;
 }
 .fin{
   display:flex;      
   justify-content: space-evenly;
+  font-family: 'Poppins', sans-serif;
 }
 .health{
   display:flex;
-  justify-content: space-evenly;        
+  justify-content: space-evenly; 
+  font-family: 'Poppins', sans-serif; 
+  padding-bottom: 5rem;      
 }
 .miniDiv {
   display:flex;
-  justify-content:space-evenly;
   padding-top:2rem;
   padding-bottom:1rem;
-  align-items:center
+  align-items:center;
+  text-align: center;
+  
 }
+
 .miniMain{
   background-color:black;
   color:white;
  padding-top:2rem;
+ padding-bottom: 3rem;
  
 }
 .div {
@@ -299,7 +352,9 @@ margin-top: 5rem;
   
 .miniSub {
   display:flex;
-  align-items:center
+  align-items:center;
+  margin-left: 24rem;
+  
 }
 
 @media only screen and (max-width: 500px) {

@@ -12,11 +12,15 @@ const Navbar = () => {
     const link = {
         textDecoration:'none'
     }
+    const svg = {
+        height:'6rem',
+        width:'6rem'
+    }
     return (
         <div className={styles.nav_main}>
             <div style={img}>
                 <a href="https://zenithchain.co" target="_blank" rel="noopener">                  
-                    <Image  src={Logo} alt=''/>   
+                    <Image style={svg} src={Logo} alt=''/>   
                 </a>
                
             </div>
