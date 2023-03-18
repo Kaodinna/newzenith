@@ -61,7 +61,7 @@ align-items: center;
   }
 }
 .applyButton{
-margin-left: 30rem;
+margin-left: 60rem;
 }
 .applyButton a {
   color: white;
@@ -464,7 +464,8 @@ width: 80%;
     padding: 0 auto;
   }
   .imgDiv{
-    width:'10%'
+    width:'10%';
+    margin-left: 3rem;
   }
  .litecoin{
     margin-left: 20rem;
@@ -526,7 +527,7 @@ width: 100%;
  }
  .applyButton{
   width: 70%;
-  margin-left: 2rem;
+  margin-left: 15rem;
  }
  .value_mini{
   display: grid;
@@ -544,7 +545,7 @@ width: 100%;
  }
  .accelerator_mini{
   display: grid;
-  width: 90%;
+  width: 100%;
  }
  .img{
   margin-right: 5rem;
