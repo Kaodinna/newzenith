@@ -7,6 +7,8 @@ import Startup from '../../public/startup-3025714-2526912.png'
 import Sphere from '../../public/sphere.png'
 import Global from '../../public/Frame 48098004fedfv.png'
 
+
+
 const Vision = () => {
     const active = {
         fontSize:'1.8rem',
@@ -22,7 +24,8 @@ const Vision = () => {
     const vision = {
         fontSize:'1.5rem',
         fontFamily: 'Poppins, sans-serif',
-        fontWeight:'bold'
+        fontWeight:'bold',
+        
     }
  const paragraph = {
     fontSize:'0.8rem',
@@ -48,16 +51,24 @@ const number = {
     alignItems:'center',
    
 }
+const numbers = {
+    display:'flex',
+    fontSize:'0.7rem',
+    alignItems:'center',
+    margin:'2.5rem 0'
+   
+}
 const last = {
-    display:'flex'
+    display:'flex',
+    alignItems:'center'
 }
 const numeral = {
    marginRight:'1rem',
-   marginTop:'1rem',
+   
    
 }
 const margin = {
-    paddingLeft:'2.5rem'
+    paddingLeft:'2rem'
 }
 const ask = {
     fontSize:'2.5rem',
@@ -76,6 +87,11 @@ borderRadius:'50%'
 const tech = {
 fontSize:'0.9rem',
 fontWeight:'bold'
+}
+const unlist = {
+    margin:'1rem 0',
+    lineHeight:'1.5',
+    fontSize:'0.8rem'
 }
     
     return ( 
@@ -161,12 +177,14 @@ fontWeight:'bold'
                         </div>
                         
                         <div className={styles.benefits_div}>
+                       
                             <div className={styles.benefits_mini}>
+                           
                                 <div style={number}>
                                     <div style={numeral}><span style={numeral_span}>1</span></div>
                                     <p>Introduction to Microsoft  - Access up to $150,000 worth of Azure credit</p>
                                 </div>
-                                <div style={number}>
+                                <div style={numbers}>
                                     <p style={numeral}><span style={numeral_span}>2</span></p>
                                     <p>A one-year subscription to Office 365 with up to 10 seats</p>
                                 </div>
@@ -174,13 +192,17 @@ fontWeight:'bold'
                                     <p style={numeral}><span style={numeral_span}>3</span></p>
                                     <p>A one-year subscription to GitHub Enterprise worth $16,000</p>
                                 </div>
+                             
                             </div>
+                        
+                           
                             <div className={styles.benefits_mini}>
+                          
                                 <div style={number}>
                                     <p style={numeral}><span style={numeral_span}>4</span></p>
                                     <p>3-month subscription to LinkedIn premium plan + Ads credit of up to $1,000</p>
                                 </div>
-                                <div style={number}>
+                                <div style={numbers}>
                                     <p style={numeral}><span style={numeral_span}>5</span></p>
                                     <p>Introduction to AWS to access $10,000  worth of AWS credit.</p>
                                 </div>
@@ -188,22 +210,27 @@ fontWeight:'bold'
                                     <p style={numeral}><span style={numeral_span}>6</span></p>
                                     <p>Subscription plans up to  $5,000 of MongoDB </p>
                                 </div>
+                              
                             </div>
+                           
+                           
                             <div className={styles.benefits_minier}>  
+                           
                                 <div style={last}>
                                     <p style={numeral}><span style={numeral_span}>7</span></p>
                                     <p>Access to Quick nodes</p>
                                 </div>                                   
                                 <div style={margin}>
-                                    <p>Personalised Mentorship – Personalised mentorship for all participants and their business needs.</p>
-                                    <p> Investor relations/readiness: We would serve as your funding and investors brokers and would make direct introductions to potential VCs and funds managers on behalf of the accelerating project(s)</p>
-                                    <p> Direct access to over 3600 investor databases. </p>
-                                    <p>                       
-                                    Opportunity to generate networks and connections with key players and institutions in the venture capital industry through Zenith Chain Ventures, in addition to potentially accessing the financing that the risk capital area delivers to startups with a focus on industries that have competitive advantages.
-                                    </p>  
+                                    <ul >
+                                        <li style={unlist}>Personalised Mentorship – Personalised mentorship for all participants and their business needs.</li>
+                                        <li style={unlist}>Investor relations/readiness: We would serve as your funding and investors brokers and would make direct introductions to potential VCs and funds managers on behalf of the accelerating project(s)</li>
+                                        <li style={unlist}>Direct access to over 3600 investor databases.</li>
+                                        <li style={unlist}>Opportunity to generate networks and connections with key players and institutions in the venture capital industry through Zenith Chain Ventures, in addition to potentially accessing the financing that the risk capital area delivers to startups with a focus on industries that have competitive advantages.</li>
+                                    </ul>
                                 </div>
-                                    
+                                 
                             </div>
+                            
                         </div>
                         <div className={styles.mini}>
                             <p style={ask}>OUR ASK</p>

@@ -3,10 +3,13 @@ const Apply = () => {
    
     const apply = {
         fontSize:'1.8rem',
-        fontFamily: 'Poppins, sans-serif'
+        fontFamily: 'Poppins, sans-serif',
+        fontWeight:'bold'
     }
     const who = {
-        fontSize:'1.1rem'
+        fontSize:'0.8rem',
+        fontFamily: 'Lato, sans-serif',
+        lineHeight:'2'
     }
    
     return (
