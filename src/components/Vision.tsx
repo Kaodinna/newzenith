@@ -107,7 +107,7 @@ const unlist = {
                                 Zenith Chain is the fastest-growing blockchain ecosystem out of Africa, ushering in the next generation of enterprise solutions in agriculture, healthcare, Blockchain-Based IoT Solutions, Fintech / Decentralized applications and public /private data architecture across emerging markets.
                             </p> 
                         </div>
-                        <div className={styles.about_div}>
+                        <div className={styles.about_div2}>
                             <Image className={styles.globe} src={Global} alt=''/>
                         </div>
                         </div>

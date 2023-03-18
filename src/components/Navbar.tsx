@@ -6,9 +6,7 @@ import styles from '../styles/Home.module.css'
 
 
 const Navbar = () => {
-    const img = {
-        width:'50%'
-    }
+   
     const link = {
         textDecoration:'none'
     }
@@ -18,7 +16,7 @@ const Navbar = () => {
     }
     return (
         <div className={styles.nav_main}>
-            <div style={img}>
+            <div className={styles.imgDiv}>
                 <a href="https://zenithchain.co" target="_blank" rel="noopener">                  
                     <Image style={svg} src={Logo} alt=''/>   
                 </a>

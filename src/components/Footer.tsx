@@ -41,13 +41,7 @@ const Footer = () => {
         width:'0.9rem',
         height:'0.6rem'
     }
-    const vertical ={
-        borderLeft: '1px solid #333', 
-        height: '35px' 
-      }
-      const copyright = {
-        paddingLeft:'1.8rem'
-      }
+  
     return (
         <div className={styles.miniMain}>
             <div className={styles.border}></div>
@@ -56,8 +50,8 @@ const Footer = () => {
                 <a  href="https://zenithchain.co" target="_blank">
                     <Image className={styles.footer_logo} src={Logo} alt=""/>
                 </a>
-                <div style={vertical}></div>
-                <p style={copyright}>
+                <div className={styles.vertical}></div>
+                <p className={styles.copyright}>
                     Copyright 2020-2023 Zenith Chain (UAB) Ltd Reg No. 305865705. All rights reserved
                 </p>
                 <div className={styles.miniSub}>

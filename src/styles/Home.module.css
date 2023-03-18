@@ -71,6 +71,7 @@ margin-left: 30rem;
   border: none;
   border-radius: 0.3rem;
   font-size: 0.7rem;
+  margin-left: 2rem;
 }
 .footer_logo{
   width:6rem;
@@ -170,6 +171,9 @@ margin-left: 30rem;
 
 .about_div{
   width: 50%;
+}
+.about_div2{
+  width:50%
 }
 .vision_div{
   width:50%;
@@ -354,6 +358,7 @@ width: 80%;
   padding-bottom: 48rem;
 }
 
+
 .value_sub{
   width:28%;
   background: linear-gradient(to bottom right, #232323 0%, #050505 100%);
@@ -408,6 +413,9 @@ width: 80%;
   text-align: center;
   
 }
+.copyright{
+  padding-left:1.8rem
+}
 
 .miniMain{
   background-color:black;
@@ -426,24 +434,49 @@ width: 80%;
   margin-left: 24rem;
   
 }
+.imgDiv{
+  width:'30%'
+}
+.general_div{
+  border-bottom: 1px solid #333;
+  width: 50%;
+} 
+.vertical{
+  border-left: 1px solid #333; 
+  height: 35px 
+}
+
 
 @media only screen and (max-width: 500px) {
-  .accelerator_main{
-    width: 80%;
+  .vertical{
+    display: none;
   }
-  .vision_main_div{
-    width: 100%; 
- 
+  .liteDiv{
+    background-image: none;
+  }
+  .general_div{
+   
+    width: 90%;
+  } 
+  .accelerator_main{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .imgDiv{
+    width:'10%'
   }
  .litecoin{
-    margin-left: 5rem;
+    margin-left: 20rem;
   }
-  .applyButton a {
-    margin-left: 10rem;
-  }
+
   .about_div{
     width: 100%; 
   }
+  .about_div2{
+    width: 100%; 
+  }
+
   .img{
    padding: 0;     
   }
@@ -464,14 +497,16 @@ width: 80%;
   .value_div{
 display: grid;
 width: 100%;
+
   }
   .value_sub{
     width: 100%;
-    margin-left: 2.5rem;
+   margin: 1rem 0;
+   
   }
   .value_para{
     width: 100%;
-    margin-left: 2.5rem;
+    margin: 1rem 0;
   }
   .mission_div{
     width: 100%;
@@ -490,7 +525,8 @@ width: 100%;
   width: 100%;
  }
  .applyButton{
-  width: 100%;
+  width: 70%;
+  margin-left: 2rem;
  }
  .value_mini{
   display: grid;
@@ -498,15 +534,10 @@ width: 100%;
  }
  .benefits_div{
   display: grid;
+  width:100%;
  }
- .about_div{
-  width: 90%;
- }
- .about_main{
-  display: grid;
-  width:90%;
-  padding-right: 0;
- }
+
+
  .apply_btn1{
   padding: 0;
   margin-left: -2rem;
@@ -521,11 +552,14 @@ width: 100%;
   width: 20rem;
  }
  .globe{
- margin-right: 8rem;
  height: 15rem;
  width: 15rem;
+ margin-left:0;
  }
- .bitcoin{margin-left: 15rem;}
+ .bitcoin{
+  margin-left: 20rem;
+  
+}
  .vision_main_div{
   background-image: none;
  }
@@ -549,8 +583,9 @@ width: 100%;
   margin-left: 2.3rem;
  }
  .nav_main{
-  margin-left: 3rem;
+ margin: 0 auto;
   width: 100%;
+  display: flex;
  }
  .sphere{
   margin-left: 2rem;
@@ -589,7 +624,7 @@ width: 100%;
   text-align: center;
  }
  .miniSub {
-  margin-left: 7rem;
+  margin-left: 2.5rem;
  }
  .program{
   width: 100%;
@@ -605,5 +640,31 @@ width: 100%;
 }
 .faq{
   margin-left: 2rem;
+  width: 100%;
+  background-image: none;
+}
+.accelerator_mega{
+background-image: none;
+width: 100;
+}
+.flex_con{
+width: 50%;
+margin-left: 1rem;
+}
+
+.faq_div{
+  background-image: none;
+  margin-left: 2rem;
+  width: 100%;
+}
+.about_para{
+ display: grid;
+ width: 100%;
+}
+.footer_logo{
+  margin-left: 3rem;
+}
+.copyright{
+  padding-left: 0;
 }
 }
