@@ -88,7 +88,6 @@ margin-left: 60rem;
 }
 .apply_btn1{
   color: white;
- 
   padding: 13px 20px;
   background:  linear-gradient(to right, #3407dc 0%, #744ffe 100%);
   font-size: 0.7rem;
@@ -445,9 +444,53 @@ width: 80%;
   border-left: 1px solid #333; 
   height: 35px 
 }
+@media only screen and (max-width: 820px) {
+  .bitcoin{
+    margin-left: 5rem;
+  }
+  .litecoin{
+    margin-left: 20rem;
+  }
+  .applyButton{
+    margin-left: 10rem;
+  }
+  .miniSub {
+    margin-left: 1rem;
+  }
+  .button{
+    padding-left: 1rem;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left:1rem;
+  }
+  .sub{
+    width: 100%;
+  }
+  .faq_div{
+    margin-left: 5rem;
+  }
+  .general_div{
+    width: 70%;
+  }
+  
+  .fin{
+    display: grid;
+ 
+  margin-left: 2rem;
+  }
+  .div{
+    margin-left: 5rem;
+  }
+  .footer_logo{
+  margin-left: 1rem;
+  }
+  }
 
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
+  .apply_mini{
+    display: grid;
+  }
   .vertical{
     display: none;
   }
@@ -464,7 +507,7 @@ width: 80%;
     padding: 0 auto;
   }
   .imgDiv{
-    width:'10%';
+    width:'30%';
     margin-left: 3rem;
   }
  .litecoin{
@@ -486,10 +529,7 @@ width: 80%;
     margin-left: 3rem;
    
   }
-  .source_div{
-    width:100%;
-   
-  }
+  
   .value_main{
     width: 100%;
     background-image: none;
@@ -540,7 +580,6 @@ width: 100%;
 
 
  .apply_btn1{
-  padding: 0;
   margin-left: -2rem;
  }
  .accelerator_mini{
@@ -553,9 +592,9 @@ width: 100%;
   width: 20rem;
  }
  .globe{
- height: 15rem;
- width: 15rem;
- margin-left:0;
+  width: 100%;
+  margin-left:1rem;
+  height: auto;
  }
  .bitcoin{
   margin-left: 20rem;
@@ -565,8 +604,9 @@ width: 100%;
   background-image: none;
  }
  .source_div{
-  margin-left: 4rem;
+  margin-left: 3rem;
   width: 100%;
+  text-align: left;
  }
  .source_mini{
   display: block;
@@ -610,11 +650,8 @@ width: 100%;
  }
  .sub{
   width: 100%;
-  text-align: center;
  }
- .button{
-  display: none;
- }
+
  .miniDiv {
   display: block;
 
@@ -636,7 +673,7 @@ width: 100%;
  }
 .div{
   width:100%;
-  text-align: center;
+  text-align: left;
   margin-left: 3rem;
 }
 .faq{
@@ -649,8 +686,8 @@ background-image: none;
 width: 100;
 }
 .flex_con{
-width: 50%;
-margin-left: 1rem;
+width: 100%;
+margin-right: 5rem;
 }
 
 .faq_div{
@@ -668,4 +705,18 @@ margin-left: 1rem;
 .copyright{
   padding-left: 0;
 }
+.flex_elelemt{
+  width: 100%;
+  margin-left: 3rem;
 }
+.relaunch{
+  width: 100%;
+  margin-left: 1rem;
+
+}
+.about_main{
+  width: 100%;
+  margin-left: 3rem;
+}
+}
+
