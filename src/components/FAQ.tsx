@@ -75,7 +75,7 @@ const FAQ = () => {
         />
         <CollapsibleParagraph
           title=" I need to incorporate it before applying?"
-          content="We do not necessarily need incorporation to consider participants.However, we consider it a significant step. Founders are encouraged to have legal documents as early as possible to avoid later complications "
+          content="We do not necessarily need incorporation to consider participants. However, we consider it a significant step. Founders are encouraged to have legal documents as early as possible to avoid later complications. "
         />
         <CollapsibleParagraph
           title="How do you choose which startups to fund?"
@@ -87,7 +87,7 @@ const FAQ = () => {
         />
         <CollapsibleParagraph
           title="How much do you invest?"
-          content="250,000"
+          content="250,000."
         />
         <CollapsibleParagraph
           title="Do I pay tuition or application fees for the accelerator?"
@@ -107,11 +107,13 @@ const FAQ = () => {
           title="When is the application deadline?"
           content={
             <div>
-              <p>Program Duration: 6 weeks.</p>
-              <p>Application ends: </p>
-              <p>Program commencement: April 3rd.</p>
-              <p>Demo Day: May 14th.</p>
-              <p>End of program: May 20th</p>
+               <p>Program Duration: 6 weeks.</p>
+              <p>Application commencement: 28th March 2023.</p>
+              <p>Application deadline: 18th April 2023.</p>
+              <p>Curriculum commencement: 25th April 2023.</p>
+              <p>Curriculum ending: 6th May 2023.</p>
+              <p>Demo Date: 13th June 2023.</p>
+              <p>Program ends: 15th June 2023.</p>             
             </div>
           }
         />
@@ -125,11 +127,11 @@ const FAQ = () => {
         />
         <CollapsibleParagraph
           title="Do you only Fund Blockchain Based products?"
-          content="Yes, we do,We are only focusing on those building on the blockchain."
+          content="Yes, we do, We are only focusing on those building on the blockchain."
         />
         <CollapsibleParagraph
           title="I was denied. Can we apply during subsequent cohorts' intake?"
-          content="Yes,you are encouraged to apply for subsequent Zenith Ventures Accelerators cohorts with a better application and improved traction"
+          content="Yes, you are encouraged to apply for subsequent Zenith Ventures Accelerators cohorts with a better application and improved traction."
         />
       
          

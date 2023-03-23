@@ -9,7 +9,8 @@ interface Props {
 const collapsible_paragraph_header = {
   display: 'flex',
   alignItems: 'center',
-  fontSize:'1.3rem'
+  fontSize:'1.3rem',
+  fontWeight:'bolder'
 }
 const collapsible_paragraph_content= {
   marginLeft: '2.4rem',

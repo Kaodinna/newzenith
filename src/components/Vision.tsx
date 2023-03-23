@@ -37,7 +37,7 @@ const Vision = () => {
     fontWeight:'bold'
 }
 const scale = {
-    fontSize:'0.8rem'
+    fontSize:'1.3rem'
 }
 const benefit = {
     fontSize:'2rem',
@@ -232,10 +232,7 @@ const unlist = {
                             </div>
                             
                         </div>
-                        <div className={styles.mini}>
-                            <p style={ask}>OUR ASK</p>
-                            <p style={equity}>2.5% equity in the business (Early stage + No vesting required )</p> 
-                        </div>
+    
                 
 
                     </div>

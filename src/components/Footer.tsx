@@ -21,7 +21,7 @@ const Footer = () => {
     }
     const numeral_span = {
         display:'inline-block',
-        padding:'5px 9px ',
+        padding:'8px 9px ',
         backgroundColor:'rgba(85,85,85,0.5)',
         borderRadius:'50%'
       }
@@ -30,7 +30,7 @@ const Footer = () => {
         height:'0.7rem'
     }
     const twit = {
-        width:'0.6rem',
+        width:'0.8rem',
         height:'0.8rem'
     }
     const link = {

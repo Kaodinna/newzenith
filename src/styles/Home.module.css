@@ -151,7 +151,7 @@ margin-left: 60rem;
   background-repeat: no-repeat;
   background-position: right 25rem;
   background-size: 35rem;
-  padding-bottom: 5rem;
+  padding-bottom: 8rem;
   padding-top: 5rem;
   
 }
@@ -166,6 +166,7 @@ margin-left: 60rem;
   background-repeat: no-repeat;
   background-position: right 28rem;
   background-size: 45rem;  
+  padding-bottom: 17rem;
 }
 
 .about_div{
@@ -276,7 +277,7 @@ margin-top: 5rem;
   min-height: 21rem;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 5rem;
+ 
  
 }
 .apply_para{
