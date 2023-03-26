@@ -1,12 +1,12 @@
 import Logo from '../../public/logo.svg'
 import Image from 'next/image'
-import Facebook from '../../public/facebook.png'
-import Twitter from '../../public/twitter.png'
-import LinkedIn from '../../public/linkedIn.png'
-import SocialIcon1 from '../../public/SocialIcon.png'
-import SocailIcon2 from '../../public/SocialIcon2.png'
-import Telegram from '../../public/telegram.png'
-import {SiMedium} from 'react-icons/si' 
+import Facebook from '../../public/Button (9).svg'
+import Twitter from '../../public/Button (10).svg'
+import LinkedIn from '../../public/Button (11).svg'
+import SocialIcon1 from '../../public/Button (12).svg'
+import SocailIcon2 from '../../public/Button (14).svg'
+import Telegram from '../../public/Button (15).svg'
+import Medium from '../../public/Button (16).svg'
 import styles from '../styles/Home.module.css'
 
 const Footer = () => {
@@ -57,38 +57,38 @@ const Footer = () => {
                 <div className={styles.miniSub}>
                     <div style={image}>
                         <a href="https://www.facebook.com/zenithchain" target="_blank" rel="noopener noreferrer">
-                            <span style={numeral_span}><Image src={Facebook} style={face} alt=""/></span>
+                           <Image src={Facebook} alt=""/>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="https://twitter.com/zenithchain_co" target="_blank" rel="noopener">
-                            <span style={numeral_span}><Image src={Twitter}  style={twit} alt=""/></span>
+                            <Image src={Twitter}  alt=""/>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="https://www.linkedin.com/company/zenith-chain" target="_blank" rel="noopener">
-                            <span style={numeral_span}><Image src={LinkedIn} style={link} alt=""/></span>
+                            <Image src={LinkedIn}  alt=""/>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="https://www.reddit.com/r/zenithchain_co">
-                            <span style={numeral_span}><Image src={SocialIcon1} alt=""/></span>
+                            <Image src={SocialIcon1} alt=""/>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="">
-                            <span style={numeral_span}><Image src={SocailIcon2} alt=""/></span>
+                            <Image src={SocailIcon2} alt=""/>
                         </a>
                     </div>
                     <div style={image}>
                         <a href="https://t.me/zenithchainenglish" target="_blank" rel="noopener">
-                            <span style={numeral_span}><Image src={Telegram}  style={tele} alt=""/></span>
+                         <Image src={Telegram}  alt=""/>
                         </a>
                     </div>
                     
                     <div style={image}>
                         <a href="https://blog.zenithchain.co">
-                            <span style={numeral_span}><SiMedium style={medium}/></span>
+                          <Image src={Medium} alt=''/>
                         </a>
                     </div>                                              
                 </div>

@@ -6,6 +6,12 @@ import Search from '../../public/searching-with-telescope-3025710-2526908.png'
 import Startup from '../../public/startup-3025714-2526912.png'
 import Sphere from '../../public/sphere.png'
 import Global from '../../public/Frame 48098004fedfv.png'
+import dataArchitecture from '../../public/Frame 48097811.png'
+import fintechApp from '../../public/Frame 48097813.png'
+import blockchain from '../../public/Frame 48097814.png'
+import health from '../../public/Frame 48097813 (1).png'
+import mine from '../../public/Frame 48097814 (1).png'
+import agric from '../../public/Frame 48097815.png'
 
 
 
@@ -70,14 +76,6 @@ const numeral = {
 const margin = {
     paddingLeft:'2rem'
 }
-const ask = {
-    fontSize:'2.5rem',
-    fontFamily: 'Poppins, sans-serif',
-    fontWeight:'bold'
-}
-const equity = {
-    fontSize:'1.2rem'
-}
 const numeral_span = {
 display:'inline-block',
 padding:'10px 15px ',
@@ -93,6 +91,10 @@ const unlist = {
     lineHeight:'1.5',
     fontSize:'0.8rem'
 }
+
+
+
+  
     
     return ( 
         <div className={styles.vision_main_div}>
@@ -159,15 +161,15 @@ const unlist = {
                     
                         </div>
                         <div className={styles.source_mini}>
-                        <p className={styles.data}>Data Architecture for Private and Government Enterprises</p>
+                        <Image className={styles.datArchi} src={dataArchitecture} alt=''/>
                         <div className={styles.fin}>
-                            <p>Fintech and Decentralized Applications</p>
-                            <p>Blockchain-Based IoT Solutions</p>
+                            <Image className={styles.fint} alt='' src={fintechApp}/>
+                            <Image className={styles.block} src={blockchain} alt=''/>
                         </div>
                         <div className={styles.health}>
-                            <p>Healthcare</p>
-                            <p>Mining</p>
-                            <p>Agriculture</p>
+                            <Image className={styles.healthy} src={health} alt=''/>
+                            <Image className={styles.miney} src={mine} alt=''/>
+                            <Image className={styles.agricul} src={agric} alt=''/>
                         </div>
                         </div>
                         <div className={styles.benefit_main}>
