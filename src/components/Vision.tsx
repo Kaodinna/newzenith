@@ -120,7 +120,8 @@ const span2 = {
                     </div>
                     </div>
                     <div className={styles.active_vision}>
-                    <Image className={styles.bitcoin} src={Bitcoin} alt=''/>
+                    <div className={styles.bitcoin}> <Image  src={Bitcoin} alt=''/></div>
+                   
                 
                     <Image className={styles.sphere} src={Sphere} alt=''/>
                         <div className={styles.vision_main}>
@@ -155,7 +156,10 @@ const span2 = {
                     </div>
                     </div>
                     <div className={styles.liteDiv}>
-                        <Image  className={styles.litecoin} src={Litecoin} alt=''/>
+                        <div className={styles.litecoin}>
+                             <Image   src={Litecoin} alt=''/>
+                        </div>
+                        
                 
                         <div className={styles.source_div}>
                         <p style={active}>ACTIVELY SOURCING</p>

@@ -61,7 +61,7 @@ align-items: center;
   }
 }
 .applyButton{
-margin-left: 50rem;
+margin-left: 45rem;
 }
 .applyButton a {
   color: white;
@@ -71,11 +71,11 @@ margin-left: 50rem;
   border: none;
   border-radius: 0.3rem;
   font-size: 0.7rem;
-  margin-left: 2rem;
+ 
 }
 .footer_logo{
-  width:6rem;
-  margin-right: 1.8rem;
+  width:20%;
+
   margin-left: 8.5rem;
 }
 .apply_btn{
@@ -200,11 +200,12 @@ margin-left: 50rem;
   padding:0
  }
  .bitcoin{
-  margin-left:80rem
+ text-align: right;
 }
 .litecoin{
-  margin-left:75rem;
+  text-align: right;
   margin-top: -6rem;
+  margin-right: 5rem;
 }
 .source_main{
   width: 100%;
@@ -431,7 +432,13 @@ width: 80%;
   color:white;
  padding-top:2rem;
  padding-bottom: 3rem;
+ width: 100%;
  
+}
+.mini_auto{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 .div {
   margin-left:9.5rem
@@ -439,8 +446,8 @@ width: 80%;
   
 .miniSub {
   display:flex;
-  align-items:center;
-  margin-left: 24rem;
+
+
   
 }
 .imgDiv{
@@ -556,6 +563,7 @@ width: 80%;
   }
   .footer_logo{
   margin-left: 1rem;
+  width: 100%;
   }
   }
 
@@ -747,7 +755,7 @@ width: 100%;
   text-align: center;
  }
  .miniSub {
-  margin-left: 2.5rem;
+  margin-left: -2.5rem;
  }
  .program{
   width: 100%;
@@ -789,7 +797,8 @@ margin-right: 5rem;
   padding-bottom: 1rem;
 }
 .copyright{
-  padding-left: 0;
+  width: 100%;
+  margin-left: 8rem;
   padding-bottom: 1rem;
 }
 .flex_elelemt{
