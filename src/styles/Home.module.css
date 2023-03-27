@@ -61,7 +61,7 @@ align-items: center;
   }
 }
 .applyButton{
-margin-left: 60rem;
+margin-left: 50rem;
 }
 .applyButton a {
   color: white;
@@ -125,7 +125,6 @@ margin-left: 60rem;
   width: 80%;
   margin: 0 auto;
   padding: 0 auto; 
-  margin-top: 5rem;
 }
 .about_para{
   display: flex;
@@ -151,7 +150,6 @@ margin-left: 60rem;
   background-repeat: no-repeat;
   background-position: right 25rem;
   background-size: 35rem;
-  padding-bottom: 8rem;
   padding-top: 5rem;
   
 }
@@ -165,7 +163,7 @@ margin-left: 60rem;
   background-image: url('../../public/Vector95.png');
   background-repeat: no-repeat;
   background-position: right 28rem;
-  background-size: 45rem;  
+  background-size: 35rem;  
   padding-bottom: 17rem;
 }
 
@@ -230,14 +228,14 @@ justify-content: center;
  text-align: center;
 }
 .source_mini{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-top: 5rem;
 width: 80%;
 margin: 0 auto;
 padding: 0 auto; 
-justify-items: center;
 margin-top: 5rem;
 text-align: center;
+font-family: 'Poppins', sans-serif;
 
 }
 
@@ -397,13 +395,24 @@ width: 80%;
   justify-content: space-between;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 .health{
   display:flex;
   justify-content: space-evenly; 
   padding-bottom: 9rem;
+  font-family: 'Poppins', sans-serif;
 
    
+}
+.collapsible_paragraph_header{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.collapsible_paragraph_header :hover{
+  cursor:pointer;
 }
 .miniDiv {
   display:flex;
@@ -468,6 +477,15 @@ width: 80%;
 .agricul{
   height:4rem;
   width:9rem; 
+}
+.spana{
+  display:flex;
+  align-items:center;
+}
+.spany{
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 @media only screen and (max-width: 820px) {
@@ -542,6 +560,14 @@ width: 80%;
   }
 
 @media only screen and (max-width: 480px) {
+  .spany{
+    margin-left: 2.5rem;
+    text-align: left; 
+  }
+  .spana{
+    margin-left: -3rem;
+    text-align: left;
+  }
   .apply_mini{
     display: grid;
   }

@@ -7,12 +7,7 @@ interface Props {
   content: any;
 }
 
-const collapsible_paragraph_header = {
-  display: "flex",
-  alignItems: "center",
-  fontSize: "1.3rem",
-  fontWeight: "bolder",
-};
+
 
 const collapsible_paragraph_content = {
   marginLeft: "2.4rem",
@@ -43,7 +38,7 @@ const CollapsibleParagraph: React.FC<Props> = ({ title, content }) => {
   return (
     <div className={styles.general_div}>
       <div
-        style={collapsible_paragraph_header}
+        className={styles.collapsible_paragraph_header}
         onClick={() => {
           toggleOpen();
           toggleClick();

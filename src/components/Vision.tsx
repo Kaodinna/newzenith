@@ -6,12 +6,7 @@ import Search from '../../public/searching-with-telescope-3025710-2526908.png'
 import Startup from '../../public/startup-3025714-2526912.png'
 import Sphere from '../../public/sphere.png'
 import Global from '../../public/Frame 48098004fedfv.png'
-import dataArchitecture from '../../public/Frame 48097811.png'
-import fintechApp from '../../public/Frame 48097813.png'
-import blockchain from '../../public/Frame 48097814.png'
-import health from '../../public/Frame 48097813 (1).png'
-import mine from '../../public/Frame 48097814 (1).png'
-import agric from '../../public/Frame 48097815.png'
+import Dot from '../../public/Ellipse 113.png'
 
 
 
@@ -93,6 +88,15 @@ const unlist = {
 }
 
 
+const bullet = {
+    marginRight:'1rem'
+}
+const span2 = {
+    display:'flex',
+    alignItems:'center'
+  }
+
+
 
   
     
@@ -106,7 +110,7 @@ const unlist = {
                             <p style={scale}>Zenith Chain is a scalable layer 2 Hybrid EVM blockchain ecosystem driving economic empowerment and environmental sustainability, leveraging our Proof-of-Authority consensus algorithm.
                             </p>
                             <p style={scale}>
-                                Zenith Chain is the fastest-growing blockchain ecosystem out of Africa, ushering in the next generation of enterprise solutions in agriculture, healthcare, Blockchain-Based IoT Solutions, Fintech / Decentralized applications and public /private data architecture across emerging markets.
+                                Zenith Chain is the fastest-growing blockchain ecosystem, ushering in the next generation of enterprise solutions in agriculture, healthcare, Blockchain-Based IoT Solutions, Fintech / Decentralized applications and public /private data architecture across emerging markets.
                             </p> 
                         </div>
                         <div className={styles.about_div2}>
@@ -161,83 +165,42 @@ const unlist = {
                     
                         </div>
                         <div className={styles.source_mini}>
-                        <Image className={styles.datArchi} src={dataArchitecture} alt=''/>
+                            <div className={styles.spany}>
+                                <Image src={Dot} style={bullet} alt=''/>
+                                <h3>  Data Architecture for Private and Government Enterprises</h3>
+                            </div>
+                        
                         <div className={styles.fin}>
-                            <Image className={styles.fint} alt='' src={fintechApp}/>
-                            <Image className={styles.block} src={blockchain} alt=''/>
-                        </div>
-                        <div className={styles.health}>
-                            <Image className={styles.healthy} src={health} alt=''/>
-                            <Image className={styles.miney} src={mine} alt=''/>
-                            <Image className={styles.agricul} src={agric} alt=''/>
-                        </div>
-                        </div>
-                        <div className={styles.benefit_main}>
-                        <div className={styles.div}>
-                        <p style={benefit}>Benefits</p>
-                        <p style={tech}>Tech supports up to  $250,000 is broken down as follows;</p>
-                        </div>
-                        
-                        <div className={styles.benefits_div}>
-                       
-                            <div className={styles.benefits_mini}>
-                           
-                                <div style={number}>
-                                    <div style={numeral}><span style={numeral_span}>1</span></div>
-                                    <p>Introduction to Microsoft  - Access up to $150,000 worth of Azure credit</p>
-                                </div>
-                                <div style={numbers}>
-                                    <p style={numeral}><span style={numeral_span}>2</span></p>
-                                    <p>A one-year subscription to Office 365 with up to 10 seats</p>
-                                </div>
-                                <div style={number}>
-                                    <p style={numeral}><span style={numeral_span}>3</span></p>
-                                    <p>A one-year subscription to GitHub Enterprise worth $16,000</p>
-                                </div>
-                             
+                            <div className={styles.spana}>
+                                <Image src={Dot}  style={bullet} alt=''/>
+                                <h3 >Fintech and Decentralized Applications</h3>
                             </div>
-                        
-                           
-                            <div className={styles.benefits_mini}>
-                          
-                                <div style={number}>
-                                    <p style={numeral}><span style={numeral_span}>4</span></p>
-                                    <p>3-month subscription to LinkedIn premium plan + Ads credit of up to $1,000</p>
-                                </div>
-                                <div style={numbers}>
-                                    <p style={numeral}><span style={numeral_span}>5</span></p>
-                                    <p>Introduction to AWS to access $10,000  worth of AWS credit.</p>
-                                </div>
-                                <div style={number}>
-                                    <p style={numeral}><span style={numeral_span}>6</span></p>
-                                    <p>Subscription plans up to  $5,000 of MongoDB </p>
-                                </div>
-                              
-                            </div>
-                           
-                           
-                            <div className={styles.benefits_minier}>  
-                           
-                                <div style={last}>
-                                    <p style={numeral}><span style={numeral_span}>7</span></p>
-                                    <p>Access to Quick nodes</p>
-                                </div>                                   
-                                <div style={margin}>
-                                    <ul >
-                                        <li style={unlist}>Personalised Mentorship – Personalised mentorship for all participants and their business needs.</li>
-                                        <li style={unlist}>Investor relations/readiness: We would serve as your funding and investors brokers and would make direct introductions to potential VCs and funds managers on behalf of the accelerating project(s)</li>
-                                        <li style={unlist}>Direct access to over 3600 investor databases.</li>
-                                        <li style={unlist}>Opportunity to generate networks and connections with key players and institutions in the venture capital industry through Zenith Chain Ventures, in addition to potentially accessing the financing that the risk capital area delivers to startups with a focus on industries that have competitive advantages.</li>
-                                    </ul>
-                                </div>
-                                 
-                            </div>
+                           <div className={styles.spana}>
+                                <Image src={Dot}  style={bullet} alt=''/>
+                                <h3>Blockchain-Based IoT Solutions </h3>
+                           </div>
                             
                         </div>
+                        <div className={styles.health}>
+                            <div style={span2}>
+                                <Image src={Dot}  style={bullet} alt=''/>
+                                <h3 >Healthcare</h3>
+                            </div>
+                            <div style={span2}>
+                                <Image src={Dot}  style={bullet} alt=''/>
+                                <h3 >Mining</h3>
+                            </div>
+                           <div style={span2}>
+                                <Image src={Dot}  style={bullet} alt=''/>
+                                <h3 >Agriculture</h3>
+                           </div>                            
+                        </div>
+                        </div>
+                       
     
                 
 
-                    </div>
+                    
                 </div>
             </div>
         </div> 

@@ -32,7 +32,7 @@ const FAQ = () => {
       <div className={styles.faq}>
           
         <div className={styles.value_main}>
-            <p style={value}>WE VALUE</p>
+            <p style={value}>OUR VALUES</p>
             <FadeInSection>
             <div className={styles.value_div}>
                 <div className={styles.value_sub}>
