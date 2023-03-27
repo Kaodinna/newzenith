@@ -10,20 +10,30 @@ export default function FadeInSection({ children }: Props) {
   const domRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => setVisible(entry.isIntersecting));
-    }, {
-      rootMargin: '-50px 0px',
-    });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setVisible(true);
+            observer.unobserve(entry.target); // Stop observing after the first intersection
+          }
+        });
+      },
+      {
+        rootMargin: '-50px 0px',
+      }
+    );
+
     if (domRef.current) {
       observer.observe(domRef.current);
     }
+
     return () => {
       if (domRef.current) {
         observer.unobserve(domRef.current);
       }
     };
-  }, []);
+  }, []); // Empty dependency array to run the effect only once on mount
 
   return (
     <div
