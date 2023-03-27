@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
         <div>
             <div className={styles.nav_main}>
-                <div></div>
+              
                 <div className={styles.imgDiv}>
                     <a href="https://zenithchain.co" target="_blank" rel="noopener">                  
                         <Image style={svg} src={Logo} alt=''/>   

@@ -42,11 +42,14 @@ const Footer = () => {
         height:'0.6rem'
     }
   const right = {
-    width:'30%'
+    width:'40%'
   }
   const loo = {
     width:'50%',
     marginLeft:'5rem'
+  }
+  const lugo = {
+    marginLeft:'2rem'
   }
     return (
         <div className={styles.miniMain}>
@@ -56,7 +59,7 @@ const Footer = () => {
             <div className={styles.miniDiv}>
                 <div className={styles.footer_logo}>
                 <a  href="https://zenithchain.co" target="_blank">
-                    <Image  src={Logo} alt=""/>
+                    <Image style={lugo} src={Logo} alt=""/>
                 </a>
                 </div>
                 <div className={styles.vertical}></div>

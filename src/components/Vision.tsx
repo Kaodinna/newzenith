@@ -89,14 +89,18 @@ const unlist = {
 
 
 const bullet = {
-    marginRight:'1rem'
+    marginRight:'0.5rem'
 }
 const span2 = {
     display:'flex',
     alignItems:'center'
   }
 
-
+const font = {
+    fontFamily:'Poppins',
+    fontWeight:'bold',
+    fontSize:'1.5rem'
+}
 
   
     
@@ -171,32 +175,32 @@ const span2 = {
                         <div className={styles.source_mini}>
                             <div className={styles.spany}>
                                 <Image src={Dot} style={bullet} alt=''/>
-                                <h3>  Data Architecture for Private and Government Enterprises</h3>
+                                <h3 style={font}>  Data Architecture for Private and Government Enterprises</h3>
                             </div>
                         
                         <div className={styles.fin}>
                             <div className={styles.spana}>
                                 <Image src={Dot}  style={bullet} alt=''/>
-                                <h3 >Fintech and Decentralized Applications</h3>
+                                <h3 style={font}>Fintech and Decentralized Applications</h3>
                             </div>
                            <div className={styles.spana}>
                                 <Image src={Dot}  style={bullet} alt=''/>
-                                <h3>Blockchain-Based IoT Solutions </h3>
+                                <h3 style={font}>Blockchain-Based IoT Solutions </h3>
                            </div>
                             
                         </div>
                         <div className={styles.health}>
                             <div style={span2}>
                                 <Image src={Dot}  style={bullet} alt=''/>
-                                <h3 >Healthcare</h3>
+                                <h3 style={font}>Healthcare</h3>
                             </div>
                             <div style={span2}>
                                 <Image src={Dot}  style={bullet} alt=''/>
-                                <h3 >Mining</h3>
+                                <h3 style={font}>Mining</h3>
                             </div>
                            <div style={span2}>
                                 <Image src={Dot}  style={bullet} alt=''/>
-                                <h3 >Agriculture</h3>
+                                <h3 style={font}>Agriculture</h3>
                            </div>                            
                         </div>
                         </div>

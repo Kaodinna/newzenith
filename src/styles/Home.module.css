@@ -71,12 +71,14 @@ margin-left: 45rem;
   border: none;
   border-radius: 0.3rem;
   font-size: 0.7rem;
+  font-family: 'Poppins',sans-serif;
+ 
  
 }
 .footer_logo{
   width:20%;
 
-  margin-left: 8.5rem;
+  
 }
 .apply_btn{
   background: linear-gradient(to right, #3407dc 0%, #744ffe 100%);
@@ -85,6 +87,7 @@ margin-left: 45rem;
   border: none;
   border-radius: 0.3rem;
   font-size: 0.7rem;
+  font-family: 'Poppins', sans-serif;
 }
 .apply_btn1{
   color: white;
@@ -93,6 +96,7 @@ margin-left: 45rem;
   font-size: 0.7rem;
   border: none;
   border-radius: 0.3rem;
+  font-family: 'Poppins', sans-serif;
 }
 .button{
   width: 50%;
@@ -235,7 +239,6 @@ width: 80%;
 margin: 0 auto;
 padding: 0 auto; 
 margin-top: 5rem;
-text-align: center;
 font-family: 'Poppins', sans-serif;
 
 }
@@ -382,7 +385,7 @@ width: 80%;
 .sphere{
   height:7rem;
   width:7rem; 
-  margin-left:2rem;
+  margin-left:5rem;
  margin-top: 5rem;
   padding:0;
   margin:0;   
@@ -420,7 +423,8 @@ width: 80%;
   padding-top:2rem;
   padding-bottom:1rem;
   align-items:center;
-  text-align: center;
+  margin-left: 10rem;
+
   
 }
 .copyright{
@@ -446,7 +450,7 @@ width: 80%;
   
 .miniSub {
   display:flex;
-
+margin-left: 2rem;
 
   
 }
@@ -492,7 +496,7 @@ width: 80%;
 .spany{
   display:flex;
   align-items:center;
-  justify-content:center;
+  margin-left: 10rem;
 }
 
 @media only screen and (max-width: 820px) {
@@ -562,7 +566,7 @@ width: 80%;
     margin-left: 5rem;
   }
   .footer_logo{
-  margin-left: 1rem;
+  margin-left: -3rem;
   width: 100%;
   }
   }
@@ -747,6 +751,7 @@ width: 100%;
 
  .miniDiv {
   display: block;
+  margin-left: 0;
 
  }
  .miniMain{
@@ -793,12 +798,12 @@ margin-right: 5rem;
  width: 100%;
 }
 .footer_logo{
-  margin-left: 1rem;
+  margin-left: -2rem;
   padding-bottom: 1rem;
 }
 .copyright{
   width: 100%;
-  margin-left: 8rem;
+  margin-left: 4.5rem;
   padding-bottom: 1rem;
 }
 .flex_elelemt{
