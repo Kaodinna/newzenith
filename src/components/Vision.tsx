@@ -14,7 +14,8 @@ const Vision = () => {
     const active = {
         fontSize:'1.8rem',
         fontFamily: 'Poppins, sans-serif',
-        fontWeight:'bold'
+        fontWeight:'bold',
+    
     }
    
    
