@@ -112,7 +112,7 @@ margin-left: 45rem;
 }
 .accelerator_mega{
   background-image: url('../../public/Rectangle.png');
-  min-height: 55rem;
+  min-height: 45rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -152,7 +152,7 @@ margin-left: 45rem;
   padding: 0 auto; 
   background-image: url('../../public/Eclipse\ \(3\).png');
   background-repeat: no-repeat;
-  background-position: right 25rem;
+  background-position: right 0rem;
   background-size: 35rem;
   padding-top: 5rem;
   
@@ -166,16 +166,18 @@ margin-left: 45rem;
 .liteDiv{
   background-image: url('../../public/Vector95.png');
   background-repeat: no-repeat;
-  background-position: right 28rem;
+  background-position: right 7rem;
   background-size: 35rem;  
-  padding-bottom: 17rem;
+  padding-bottom: 10rem;
 }
 
 .about_div{
   width: 50%;
+  justify-content: center;
 }
 .about_div2{
   width:50%
+
 }
 .vision_div{
   width:50%;
@@ -345,20 +347,19 @@ width: 80%;
   font-weight:bold;
  
   margin: 0 auto;
-  padding: 0 auto;
-  background-image: url('../../public/Group.png');
+
   background-repeat: no-repeat;
-  background-position: right 5rem;
+  background-position: right -20rem;
   background-size: 35rem;
   
 }
 .faq_div{
   margin-left: 10rem;
-  background-image: url('../../public/Eclipsefaq.png');
+ background-image: url('../../public/Eclipsefaq.png');
   background-repeat: no-repeat;
-  background-position: right 30rem;
+  background-position: right 10rem;
   background-size: 35rem;
-  padding-bottom: 30rem;
+  padding-bottom: 15rem;
 }
 
 
@@ -404,7 +405,6 @@ width: 80%;
 .health{
   display:flex;
   justify-content: space-evenly; 
-  padding-bottom: 9rem;
   font-family: 'Poppins', sans-serif;
 
    
@@ -428,7 +428,8 @@ width: 80%;
   
 }
 .copyright{
-  padding-left:1.8rem
+  padding-left:1.8rem;
+  font-size: 0.67rem;
 }
 
 .miniMain{
@@ -785,7 +786,7 @@ width: 100;
 }
 .flex_con{
 width: 100%;
-margin-right: 5rem;
+margin-right: 5rem;     
 }
 
 .faq_div{

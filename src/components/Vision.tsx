@@ -19,7 +19,7 @@ const Vision = () => {
    
    
     const para = {
-        fontSize:'0.8rem',
+        fontSize:'1.1rem',
         lineHeight:'1.6'
     }
     const vision = {
@@ -29,7 +29,7 @@ const Vision = () => {
         
     }
  const paragraph = {
-    fontSize:'0.8rem',
+    fontSize:'1.1rem',
     lineHeight:'1.6'
  }
  const about = {
@@ -38,7 +38,8 @@ const Vision = () => {
     fontWeight:'bold'
 }
 const scale = {
-    fontSize:'1.3rem'
+    fontSize:'1.3rem',
+    justifyContent:'center'
 }
 const benefit = {
     fontSize:'2rem',

@@ -9,7 +9,7 @@ import Relaunch from '../../public/undraw_relaunch_day_902d 1.png'
 const Accelerator = () => {
 
         const accept = {
-            fontSize:'1.1rem',
+            fontSize:'1.3rem',
             lineHeight:'1.4'
         }
 

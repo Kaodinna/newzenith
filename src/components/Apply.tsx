@@ -7,7 +7,7 @@ const Apply = () => {
         fontWeight:'bold'
     }
     const who = {
-        fontSize:'0.8rem',
+        fontSize:'1.1rem',
         fontFamily: 'Lato, sans-serif',
         lineHeight:'2'
     }
